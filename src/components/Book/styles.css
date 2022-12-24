@@ -1,0 +1,44 @@
+.book {
+  background: #333;
+  color: #f3f3f3;
+  padding: 10px;
+  border-radius: 4px;
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: max-content auto;
+  cursor: pointer;
+  position: relative;
+}
+
+.book:hover {
+  background: #f3f3f3;
+  color: #333 !important;
+}
+
+.book img {
+  border-width: 0;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  border-radius: 4px;
+  height: 96px;
+  width: 72px;
+}
+
+.book .book-infos {
+  display: grid;
+  grid-template-rows: max-content;
+  height: fit-content;
+  row-gap: 2px;
+}
+
+.book .book-infos .title {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+}
+
+.book .book-infos .subtitle {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #b3aaaa;
+  font-family: Roboto, sans-serif;
+}

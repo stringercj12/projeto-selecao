@@ -1,0 +1,17 @@
+.empty-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
+
+.empty-list svg {
+  width: 230px;
+}
+
+.empty-list p {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
