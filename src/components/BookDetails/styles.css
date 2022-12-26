@@ -1,0 +1,16 @@
+.book-details img {
+  width: 100%;
+  object-fit: contain;
+  height: 250px;
+  margin: 0 auto;
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+}
+.book-details .book-info {
+  margin-top: 20px;
+}
+
+.book-details .book-info h3 {
+  color: #222;
+  margin-bottom: 10px;
+}

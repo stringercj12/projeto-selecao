@@ -4,6 +4,7 @@ import { Book } from './components/Book'
 import { Search } from './components/Search'
 import { api } from './config/api'
 import { EmptyList } from './components/EmptyList'
+import { Modal } from './components/Modal'
 
 interface IBookResponse {
   items: [
